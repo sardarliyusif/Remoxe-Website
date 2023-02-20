@@ -16,12 +16,12 @@ export const Header = () => {
           />
         </div>
         <nav className="sm:flex items-center hidden ">
-          <a href="https://twitter.com/useremox" target="_blank">
+          <a href="https://twitter.com/useremox" target="_blank" rel="noreferrer">
             <FaTwitter className="text-iconLight w-[30px] h-[30px] hover:text-[#1DA1F2] cursor-pointer" />
           </a>
           <a
             href="https://discord.com/invite/2r4hrNEbWn"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             className="mx-8"
           >
             <FaDiscord className="text-iconLight w-[30px] h-[30px] hover:text-[#7289da] cursor-pointer" />
@@ -38,12 +38,12 @@ export const Header = () => {
         </div>
         {isOpen && <div className="sm:hidden absolute top-12 left-0 px-[14px] py-8 w-full flex flex-col bg-white border-t ">
           <div className="flex mx-auto">
-            <a href="https://twitter.com/useremox" target="_blank">
+            <a href="https://twitter.com/useremox" target="_blank" rel="noreferrer">
               <FaTwitter className="text-iconLight w-[30px] h-[30px] hover:text-[#1DA1F2] cursor-pointer" />
             </a>
             <a
               href="https://discord.com/invite/2r4hrNEbWn"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="mx-8"
             >
               <FaDiscord className="text-iconLight w-[30px] h-[30px] hover:text-[#7289da] cursor-pointer" />
@@ -52,7 +52,7 @@ export const Header = () => {
           <Button
             content="Enter App"
             link="https://app.remox.io/"
-            classes='py-3 w-full mt-8'
+            classes='h-[40px] w-full mt-8'
             bg='primary'
           />
         </div>}

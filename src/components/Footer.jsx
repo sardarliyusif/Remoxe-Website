@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="max-w-[1280px] my-0 mx-auto flex justify-between items-center pb-[22px] sm:pb-10 border-b border-iconLight">
         <img className="h-[20px] sm:h-[40px]" src="/icons/logo.svg" alt="logo" />
         <ul className="flex text-[10px] sm:text-base font-semibold">
-          <li className="hover:text-[#2e2e2e]">
+          <li className="hover:text-[#707070]">
             <a href="#">Home</a>
           </li>
           <li className="mx-5 sm:mx-[60px] hover:text-[#2e2e2e]">
