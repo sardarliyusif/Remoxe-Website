@@ -29,7 +29,7 @@ export const Products = () => {
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
             <img className="hidden sm:inline w-[608px]" src="/icons/budgets.svg" alt="product" />
-            <img className="w-[608px] sm:hidden" src="/icons/budgets-mob.svg" alt="product" />
+            <img className="sm:hidden" src="/icons/budgets-mob.svg" alt="product" />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row mb-[130px] sm:mb-[260px]">
@@ -47,7 +47,7 @@ export const Products = () => {
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
             <img className="hidden sm:inline w-[608px]" src="/icons/transactions.svg" alt="product" />
-            <img className="w-[608px] sm:hidden" src="/icons/transactions-mob.svg" alt="product" />
+            <img className="sm:hidden" src="/icons/transactions-mob.svg" alt="product" />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row">
@@ -62,7 +62,7 @@ export const Products = () => {
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
             <img className="hidden sm:inline w-[608px]" src="/icons/risk.svg" alt="product" />
-            <img className="w-[608px] sm:hidden" src="/icons/risk-mob.svg" alt="product" />
+            <img className="sm:hidden" src="/icons/risk-mob.svg" alt="product" />
           </div>
         </div>
       </div>
