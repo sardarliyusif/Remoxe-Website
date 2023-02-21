@@ -9,10 +9,10 @@ export const Hero = () => {
           <h2 className="text-3xl sm:text-[56px] font-semibold pl-7 sm:pl-0 mb-5 sm:mb-9">
             Treasury Management, Simplified.
           </h2>
-          <p className="text-[10px] sm:text-xl text-greylish font-normal text-center px-[6px] sm:text-left mb-7 sm:mb-8 leading-[24px]">
-            Easily connect your wallets, onboard contributors, run payroll, do
+          <p className="text-[10px] sm:text-xl text-greylish font-normal text-center px-[6px] sm:text-left mb-7 sm:mb-8 leading-[12px] sm:leading-[24px]">
+            Easily connect your wallets, onboard contributors, run <span className="mr-1">payroll,</span> do
             budgeting & bookkeeping, monitor your financial data with live
-            reporting and make investments in DeFi while mitigating risks with
+            reporting and make investments in DeFi while <span className="mr-1">mitigating</span> risks with
             dynamic risk assessments.
           </p>
           <div className="flex justify-center sm:justify-start mb-8 sm:mb-5">
@@ -44,11 +44,16 @@ export const Hero = () => {
             />
           </div>
         </div>
-        <div className="sm:w-1/2 flex justify-center">
+        <div className="sm:w-1/2 flex justify-center px-[24px] sm:px-0">
           <img
+          className="hidden sm:inline"
             src="/icons/dashboard.svg"
             alt="dashboard"
-            // className="w-[314px] sm:w-[628px]"
+          />
+          <img
+            className="sm:hidden"
+            src="/icons/dashboard-mob.svg"
+            alt="dashboard"
           />
         </div>
       </div>

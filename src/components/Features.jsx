@@ -4,14 +4,14 @@ export const Features = () => {
   return (
     <section className="px-4 py-5 sm:py-[52px] bg-light">
       <div className="max-w-[1280px] my-0 mx-auto">
-        <div className="mb-[146px] sm:mb-[120px] sm:order-1">
+        <div className="mb-[26px] sm:mb-[120px] sm:order-1">
           <p className="text-primary text-[10px] sm:text-base font-semibold text-center">
             Features
           </p>
           <p className="font-semibold text-[18px] sm:text-[36px] my-3 sm:my-[26px]  text-center">
             The 9-in-1 crypto treasury management solution
           </p>
-          <p className="font-semibold text-[8px] text-greylish sm:text-[18px] text-center">
+          <p className="font-semibold text-[10px] max-w-[313px] sm:max-w-none mx-auto text-greylish sm:text-[18px] text-center">
             Remox offers streamlined features that make it the best place to
             manage your treasury.
           </p>

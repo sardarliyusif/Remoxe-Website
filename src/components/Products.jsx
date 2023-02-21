@@ -18,25 +18,26 @@ export const Products = () => {
         </div>
         <div className="flex flex-col sm:flex-row mb-[130px] sm:mb-[260px]">
           <div className="sm:w-1/2 flex flex-col justify-center sm:order-1">
-            <p className="font-semibold text-lg sm:text-[36px] mb-4">
+            <p className="text-center sm:text-left font-semibold text-lg sm:text-[36px] mb-4">
               Payments, the base treasury needs
             </p>
-            <p className="font-normal text-[8px] sm:text-lg text-greylish mb-[30px] sm:mb-0">
+            <p className="text-center sm:text-left max-w-[280px] sm:max-w-none mx-auto font-normal text-[8px] sm:text-lg text-greylish mb-[20px] sm:mb-0">
               Create a budget cycle and different budgets for your spending
               needs, run on-chain payroll with multiple currencies after
               onboarding contributors, and reimburse expenses.
             </p>
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
-            <img className="w-[608px]" src="/icons/budgets.svg" alt="product" />
+            <img className="hidden sm:inline w-[608px]" src="/icons/budgets.svg" alt="product" />
+            <img className="w-[608px] sm:hidden" src="/icons/budgets-mob.svg" alt="product" />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row mb-[130px] sm:mb-[260px]">
           <div className="sm:w-1/2 flex flex-col justify-center">
-            <p className="font-semibold text-lg sm:text-[36px] mb-4">
+            <p className="text-center sm:text-left font-semibold text-lg sm:text-[36px] mb-4">
               Analytics, the mid treasury needs
             </p>
-            <p className="font-normal text-[8px] sm:text-lg text-greylish mb-[30px] sm:mb-0">
+            <p className="text-center sm:text-left max-w-[267px] sm:max-w-none mx-auto font-normal text-[8px] sm:text-lg text-greylish mb-[20px] sm:mb-0">
               Manage multiple wallets on multiple networks, have a detailed
               insight into your organization’s financial standing, track and
               record transactions with custom labels to make it simple to do
@@ -45,21 +46,23 @@ export const Products = () => {
             </p>
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
-            <img className="w-[608px]" src="/icons/transactions.svg" alt="product" />
+            <img className="hidden sm:inline w-[608px]" src="/icons/transactions.svg" alt="product" />
+            <img className="w-[608px] sm:hidden" src="/icons/transactions-mob.svg" alt="product" />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row">
           <div className="sm:w-1/2 flex flex-col justify-center sm:order-1">
-            <p className="font-semibold text-lg sm:text-[36px] mb-4">
+            <p className="text-center sm:text-left font-semibold text-lg sm:text-[36px] mb-4">
               Investments, the top treasury needs
             </p>
-            <p className="font-normal text-[8px] sm:text-lg text-greylish mb-[30px] sm:mb-0">
+            <p className="text-center sm:text-left max-w-[260px] sm:max-w-none mx-auto font-normal text-[8px] sm:text-lg text-greylish mb-[20px] sm:mb-0">
               Track your DeFi investments while mitigating technical and
               economic risks through our dynamic risk assessment.
             </p>
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
-            <img className="w-[608px]" src="/icons/risk.svg" alt="product" />
+            <img className="hidden sm:inline w-[608px]" src="/icons/risk.svg" alt="product" />
+            <img className="w-[608px] sm:hidden" src="/icons/risk-mob.svg" alt="product" />
           </div>
         </div>
       </div>

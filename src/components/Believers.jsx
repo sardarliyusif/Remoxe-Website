@@ -8,12 +8,20 @@ export const Believers = () => {
           <p className="text-primary text-[10px] sm:text-base font-semibold text-center">
           The first believers
           </p>
-          <div className='flex flex-col items-center mt-[60px] sm:mt-[41px] sm:flex-row sm:justify-between'>
-            <img className='mb-[80px] sm:mb-0' src="/icons/celo.svg" alt="believer" />
-            <img className='mb-[80px] sm:mb-0' src="/icons/spirals.svg" alt="believer" />
-            <img className='mb-[80px] sm:mb-0' src="/icons/moola.svg" alt="believer" />
-            <img className='mb-[80px] sm:mb-0' src="/icons/cyberbox.svg" alt="believer" />
-            <img src="/icons/valora.svg" alt="believer" />
+          <div className='flex flex-col justify-center items-center mt-[60px] sm:mt-[41px] sm:flex-row sm:justify-between'>
+            <img className='hidden sm:inline mb-[80px] sm:mb-0' src="/icons/celo.svg" alt="believer" />
+            <img className='hidden sm:inline mb-[80px] sm:mb-0' src="/icons/spirals.svg" alt="believer" />
+            <img className='hidden sm:inline mb-[80px] h-[45px] sm:self-baseline sm:mb-0' src="/icons/moola.png" alt="believer" />
+            <img className='hidden sm:inline mb-[80px] sm:mb-0' src="/icons/cyberbox.svg" alt="believer" />
+            <img className='hidden sm:inline' src="/icons/valora.svg" alt="believer" />
+
+            <img className='sm:hidden mb-[80px] sm:mb-0' src="/icons/celo-mob.svg" alt="believer" />
+            <img className='sm:hidden mb-[80px] sm:mb-0' src="/icons/spirals-mob.svg" alt="believer" />
+            <img className='sm:hidden mb-[80px] h-[45px] sm:self-baseline sm:mb-0' src="/icons/moola-mob.svg" alt="believer" />
+            <img className='sm:hidden mb-[80px] sm:mb-0' src="/icons/cyberbox-mob.svg" alt="believer" />
+            <img className='sm:hidden' src="/icons/valora-mob.svg" alt="believer" />
+            
+
           </div>
         </div>
         </div>
