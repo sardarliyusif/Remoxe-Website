@@ -6,8 +6,8 @@ export const Button = ({ content, bg, size, link, classes }) => {
       <button
         className={`rounded-md ${classes} ${
           bg === "primary"
-            ? "text-white border bg-primary hover:bg-white hover:text-primary hover:border-primary"
-            : "text-primary border border-primary hover:bg-primary hover:text-white"
+            ? "text-white border bg-primary hover:bg-[#FF4513] "
+            : "text-primary border border-primary hover:bg-[#EEEEEE]"
         } ${
           size === "small"
             ? "w-[120px] text-sm h-[40px] font-semibold"
