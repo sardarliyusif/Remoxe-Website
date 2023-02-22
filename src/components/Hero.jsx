@@ -52,7 +52,7 @@ export const Hero = () => {
           />
           <img
             className="sm:hidden"
-            src="/icons/dashboard-mob.svg"
+            src="/icons/dashboard-mob.png"
             alt="dashboard"
             style={{filter: 'drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.18))'}}
           />
