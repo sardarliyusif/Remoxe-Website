@@ -29,7 +29,7 @@ export const Products = () => {
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
             <img className="hidden sm:inline w-[608px]" src="/icons/budgets.svg" alt="product" />
-            <img className="sm:hidden" src="/icons/budgets-mob.png" alt="product" />
+            <img className="sm:hidden" src="/icons/budgets-mob.png" alt="product" style={{filter: "drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.15))"}} />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row mb-[130px] sm:mb-[260px]">
@@ -47,7 +47,7 @@ export const Products = () => {
           </div>
           <div className="w-10/12 self-center sm:w-1/2">
             <img className="hidden sm:inline w-[608px]" src="/icons/transactions.svg" alt="product" />
-            <img className="sm:hidden" src="/icons/transactions-mob.png" alt="product" />
+            <img className="sm:hidden" src="/icons/transactions-mob.png" alt="product" style={{filter: "drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.15))"}} />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row">
