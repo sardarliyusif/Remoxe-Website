@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="flex justify-between items-center max-w-[1280px] my-0 mx-auto">
         <div className="logo">
           <img
-            src="/icons/logo.svg"
+            src="/icons/logoMobile.png"
             alt="logo"
             className="h-[20px] sm:h-[40px]"
           />

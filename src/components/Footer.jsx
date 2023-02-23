@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className="px-4">
       <div className="max-w-[1280px] my-0 mx-auto flex justify-between items-center pb-[22px] sm:pb-10 border-b border-iconLight">
-        <img className="h-[20px] sm:h-[40px]" src="/icons/logo.svg" alt="logo" />
+        <img className="h-[20px] sm:h-[40px]" src="/icons/logoMobile.png" alt="logo" />
         <ul className="flex text-[10px] sm:text-base font-semibold">
           <li className="hover:text-[#707070]">
             <a href="#">Home</a>
