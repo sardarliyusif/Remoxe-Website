@@ -44,7 +44,7 @@ export const Hero = () => {
             />
           </div>
         </div>
-        <div className="sm:w-1/2 flex justify-center pl-[12px] sm:px-0">
+        <div className="sm:w-1/2 flex justify-center px-[6px] sm:px-0">
           <img
           className="hidden sm:inline"
             src="/icons/dashboard.svg"
