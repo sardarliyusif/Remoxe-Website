@@ -16,7 +16,6 @@ export const Networks = () => {
             <img className="hidden sm:inline w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network8.svg" alt="network" />
             <img className="hidden sm:inline w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network9.svg" alt="network" />
             <img className="hidden sm:inline w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network10.svg" alt="network" />
-            <img className="hidden sm:inline w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network11.svg" alt="network" />
 
             <img className="sm:hidden w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network1-mob.svg" alt="network" />
             <img className="sm:hidden w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network2-mob.svg" alt="network" />
@@ -28,7 +27,6 @@ export const Networks = () => {
             <img className="sm:hidden w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network8-mob.svg" alt="network" />
             <img className="sm:hidden w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network9-mob.svg" alt="network" />
             <img className="sm:hidden w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network10-mob.svg" alt="network" />
-            <img className="sm:hidden w-[18px] h-[18px] sm:w-[40px] sm:h-[40px]" src="/icons/network11-mob.svg" alt="network" />
         </div>
       </div>
     </section>

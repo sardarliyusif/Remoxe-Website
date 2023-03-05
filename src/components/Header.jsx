@@ -6,7 +6,7 @@ import { Button } from "./shared/Button";
 export const Header = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <header className={` sm:py-[22px] pl-[14px] sm:px-[4.75rem] border-b mb-[54px] sm:mb-[110px] border-iconLight  ${isOpen ? 'bg-white' : ''}`}>
+    <header className={` sm:py-[22px] fixed w-full top-0 bg-[#f7f7f7] z-50 pl-[14px] sm:px-[4.75rem] border-b mb-[54px] sm:mb-[110px] border-iconLight  ${isOpen ? 'bg-white' : ''}`}>
       <div className="flex justify-between items-center max-w-[1280px] my-0 mx-auto">
         <div className="logo">
           <img
